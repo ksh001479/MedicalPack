@@ -26,6 +26,11 @@
             android:text="영상을 보고 싶으시다면 클릭해주세요."
             android:textSize="10dp" />
 
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
 
     </LinearLayout>
 </RelativeLayout>
