@@ -10,7 +10,7 @@ import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity  {
 
-    int MAX_PAGE = 3;
+    int MAX_PAGE = 5;
     Fragment cur_fragment = new Fragment();
 
     @Override
@@ -41,6 +41,15 @@ public class MainActivity extends AppCompatActivity  {
                     break;
                 case 2:
                     cur_fragment = new page_3();
+                    break;
+                case 3:
+                    cur_fragment = new page_4();
+                    break;
+                case 4:
+                    cur_fragment = new page_5();
+                    break;
+                case 5:
+                    cur_fragment = new page_6();
                     break;
             }
             return cur_fragment;
