@@ -14,10 +14,11 @@ public class Video_Day_1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video__day_1);
         intent = getIntent();
-        t = intent.getIntExtra("int-keyword",1);
+        t = intent.getIntExtra("int-keyword",0);
 
-        TextView textView = (TextView)findViewById(R.id.text);
-        textView.setText("전달된 값은 : "+t);
+        String [] YouUrl = {"",""};
+//        TextView textView = (TextView)findViewById(R.id.text);
+//        textView.setText("전달된 값은 : "+t);
 //        getText(getInt);
     }
 }

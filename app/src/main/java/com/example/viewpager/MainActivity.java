@@ -8,9 +8,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageButton;
 
-public class MainActivity extends AppCompatActivity  {
+public class MainActivity extends AppCompatActivity {
 
-    int MAX_PAGE = 5;
+    int MAX_PAGE = 15;
     Fragment cur_fragment = new Fragment();
 
     @Override
@@ -50,6 +50,33 @@ public class MainActivity extends AppCompatActivity  {
                     break;
                 case 5:
                     cur_fragment = new page_6();
+                    break;
+                case 6:
+                    cur_fragment = new page_7();
+                    break;
+                case 7:
+                    cur_fragment = new page_8();
+                    break;
+                case 8:
+                    cur_fragment = new page_9();
+                    break;
+                case 9:
+                    cur_fragment = new page_10();
+                    break;
+                case 10:
+                    cur_fragment = new page_11();
+                    break;
+                case 11:
+                    cur_fragment = new page_12();
+                    break;
+                case 12:
+                    cur_fragment = new page_13();
+                    break;
+                case 13:
+                    cur_fragment = new page_14();
+                    break;
+                case 14:
+                    cur_fragment = new page_15();
                     break;
             }
             return cur_fragment;
