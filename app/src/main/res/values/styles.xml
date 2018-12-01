@@ -10,4 +10,8 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="SplashTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/ic_launcher_background</item>
+    </style>
+
 </resources>
