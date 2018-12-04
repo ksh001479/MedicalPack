@@ -13,13 +13,13 @@
         android:orientation="horizontal"
         android:layout_weight="1">
 
-        <ImageButton
-            android:id="@+id/img_btn1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:src="@drawable/moviemenu"/>
+        <!--<ImageButton-->
+            <!--android:id="@+id/img_btn1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:src="@drawable/moviemenu"/>-->
         <ImageButton
             android:id="@+id/img_btn2"
             android:layout_width="match_parent"

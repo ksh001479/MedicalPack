@@ -18,12 +18,20 @@ public class MainMenu extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
 
-        ImageButton imgBtn1 = (ImageButton) findViewById(R.id.img_btn1);
+//        ImageButton Timer = (ImageButton) findViewById(R.id.img_btn1);
         ImageButton call = (ImageButton) findViewById(R.id.img_btn2);
         ImageButton seasonFood = (ImageButton) findViewById(R.id.img_btn3);
         ImageButton date = (ImageButton) findViewById(R.id.img_btn4);
         ImageButton map = (ImageButton) findViewById(R.id.img_btn5);
         ImageButton option = (ImageButton) findViewById(R.id.img_btn6);
+
+//        Timer.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(getApplicationContext(), Timer.class);
+//                startActivity(intent);
+//            }
+//        });
 
         call.setOnClickListener(new View.OnClickListener() {
             @Override
